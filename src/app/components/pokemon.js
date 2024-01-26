@@ -16,7 +16,6 @@ function Pokemon(){
 
     const [habilidad0 , setHabilidad0]=useState("Esperando...")
     const [habilidad1 , setHabilidad1]=useState("Esperando...")
-    const [habilidad2 , setHabilidad2]=useState("Esperando...")
 
     const [vida , setVida]=useState("Esperando...")
     const [ataque , setAtaque]=useState("Esperando...")
@@ -32,7 +31,7 @@ function Pokemon(){
             setEstado(data.species.name),
             setHabilidad0(data.abilities[0].ability.name),
             setHabilidad1(data.abilities[1].ability.name),
-            setHabilidad2(data.abilities[2].ability.name),
+
             setTipo(data.types[0].type.name),
             setAltura(data.height),
             setPeso(data.weight),
@@ -62,7 +61,7 @@ function Pokemon(){
                 </div>
                 <div className={style.about_content}>
                     <h1>Height</h1>
-                    <h1 className={style.stats}>{altura}</h1>
+                    <h1 className={style.stats}>{altura} m</h1>
                 </div>
                 <div className={style.about_content}>
                     <h1>Weight</h1>
@@ -70,7 +69,7 @@ function Pokemon(){
                 </div>
                 <div className={style.about_content}>
                     <h1>Abilities</h1>
-                    <h1 className={style.stats}>{habilidad0},{habilidad1},{habilidad2}</h1>
+                    <h1 className={style.stats}>{habilidad0}, {habilidad1}</h1>
                 </div>  
             </div>
 
