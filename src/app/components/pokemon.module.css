@@ -10,7 +10,7 @@
     text-transform: capitalize;
 }
 
-/* contenedor imagen */
+/* contenedor */
 
 .contenedor .image_container{
     display: flex;
@@ -29,7 +29,6 @@
     width: 100%;
     color: var(--blue);
     text-align: start;
-    margin: 20px;
 }
 
 .contenedor .image_container img{
@@ -52,9 +51,9 @@
 }
 
 .about_container h1{
-    
+    margin: -10px 0;
     display: grid;
-    width: 10%;
+    width: 50%;
 }
 
 .about_container .about_content{
