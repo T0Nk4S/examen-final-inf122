@@ -4,24 +4,24 @@ import style from "./pokemon.module.css";
 import { useState , useEffect } from "react";
 function Pokemon(){
     const [pokemon,setPokemon]=useState("/vercel.svg")
-    const [estado , setEstado]=useState("Awanta...")
+    const [estado , setEstado]=useState("Esperando...")
 
-    const [numero , setNumero]=useState("Awanta...")
+    const [numero , setNumero]=useState("Esperando...")
 
-    const [tipo , setTipo]=useState("Awanta...")
+    const [tipo , setTipo]=useState("Esperando...")
 
-    const [altura , setAltura]=useState("Awanta...")
+    const [altura , setAltura]=useState("Esperando...")
 
-    const [peso , setPeso]=useState("Awanta...")
+    const [peso , setPeso]=useState("Esperando...")
 
-    const [habilidad0 , setHabilidad0]=useState("Awanta...")
-    const [habilidad1 , setHabilidad1]=useState("Awanta...")
-    const [habilidad2 , setHabilidad2]=useState("Awanta...")
+    const [habilidad0 , setHabilidad0]=useState("Esperando...")
+    const [habilidad1 , setHabilidad1]=useState("Esperando...")
+    const [habilidad2 , setHabilidad2]=useState("Esperando...")
 
-    const [vida , setVida]=useState("Awanta...")
-    const [ataque , setAtaque]=useState("Awanta...")
-    const [defensa , setDefenza]=useState("Awanta...")
-    const [velocidad , setVelocidad]=useState("Awanta...")
+    const [vida , setVida]=useState("Esperando...")
+    const [ataque , setAtaque]=useState("Esperando...")
+    const [defensa , setDefenza]=useState("Esperando...")
+    const [velocidad , setVelocidad]=useState("Esperando...")
 
     const url="https://pokeapi.co/api/v2/pokemon/195"
 
